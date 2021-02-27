@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss","blocks/donateForm.scss"],"names":[],"mappings":"AAAA,IAAA,CAAA;EACA,gBAAA,EAAA,QAAA,GACA;;ACFA,EAAE,CAAA;EACA,KAAK,EAAE,cAAc,GACtB","file":"main.css","sourcesContent":["body{\r\n  background-color: cornsilk;\r\n}\r\n@import \"./blocks/*.scss\";\r\n","h1{\r\n  color: cornflowerblue;\r\n}\r\n"]}

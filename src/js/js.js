@@ -1,5 +1,7 @@
-import donate from "./script/form";
+import form from "./script/form";
+import validate from "./script/validate";
 
 window.addEventListener('DOMContentLoaded', function () {
-    donate();
+    form('.form');
+    validate();
 });

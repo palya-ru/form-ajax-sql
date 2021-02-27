@@ -1,4 +1,27 @@
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
 body{
-  background-color: cornsilk;
+  padding: 0;
+  margin: 0;
+}
+
+$blue: #6cb6ff;
+$yellow: #ffff00;
+$color:#ff9460;
+@mixin inputFocus{
+  outline: none;
+  box-shadow: 0 0 3px 1px $color;
+
+}
+.btn:focus, .forms-group__input:focus{
+  @include inputFocus;
 }
 @import "./blocks/*.scss";
